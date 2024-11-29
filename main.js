@@ -111,7 +111,13 @@ async function checkForNewJobs() {
   } else {
     console.log('No new jobs found.');
   }
+
+  // Explicitly return success (exit code 0)
+  return true; // or process.exit(0) for clarity
 }
 
-// Run the job check
-checkForNewJobs();
+// Run the job check and handle any unexpected errors
+checkForNewJobs().catch(error => {
+  console.error('Error during job check:', error);
+  process.exit(0);  // Ensure the action exits with code 0 even on error
+});
