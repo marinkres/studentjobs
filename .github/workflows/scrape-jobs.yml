@@ -31,5 +31,12 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: node main.js
 
-      - name: Debug environment
-        run: printenv | sort
+      - name: Commit and push updated jobs file
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "github-actions@github.com"
+          git add previous_jobs.json
+          git commit -m "Update previous jobs file"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub token za autentifikaciju
