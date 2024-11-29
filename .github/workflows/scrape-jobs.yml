@@ -2,7 +2,7 @@ name: Scrape Jobs and Send Email
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Run every 30 minutes
+    - cron: '0 */6 * * *'  # Run every 6 hours
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
