@@ -30,6 +30,7 @@ jobs:
           EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: node main.js
+        continue-on-error: true  
 
       - name: Commit and push updated jobs file
         run: |
