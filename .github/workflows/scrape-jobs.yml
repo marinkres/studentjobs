@@ -2,8 +2,8 @@ name: Scrape Jobs and Send Email
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Pokreće se svakih 30 minuta
-  workflow_dispatch: # Omogućuje ručno pokretanje
+    - cron: '*/30 * * * *'  # Run every 30 minutes
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   scrape-jobs:
@@ -30,14 +30,20 @@ jobs:
           EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: node main.js
-        continue-on-error: true  
+        continue-on-error: true  # Avoid failing the action if there are no new jobs
 
       - name: Commit and push updated jobs file
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "github-actions@github.com"
+          
+          # Add only the specific file that was modified (previous_jobs.json)
           git add previous_jobs.json
-          git commit -m "Update previous jobs file"
+
+          # If there are no changes to commit, skip the commit step
+          git diff --cached --quiet || git commit -m "Update previous jobs file"  # Commit only if changes exist
+
+          # Push changes to the repository
           git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/marinkres/studentjobs.git
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub token za autentifikaciju
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub token for authentication
