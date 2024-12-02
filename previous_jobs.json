@@ -1,5 +1,21 @@
 [
   {
+    "title": "💻 Informatički tehničar/ka za potporu",
+    "company": "Klinički bolnički centar Zagreb",
+    "link": "https://studentski-poslovi.hr/posao/47982",
+    "date": "02.12.2024.",
+    "salary": "5.25  €",
+    "location": "Zagreb"
+  },
+  {
+    "title": "💻 IT tehničar/ka za održavanje hardvera",
+    "company": "Klinički bolnički centar Zagreb",
+    "link": "https://studentski-poslovi.hr/posao/47981",
+    "date": "02.12.2024.",
+    "salary": "5.25  €",
+    "location": "Zagreb"
+  },
+  {
     "title": "💻 Tehničar /mlađi inženjer prodaje (strojarstva) m/ž",
     "company": "DABAL OPREMA d.o.o.",
     "link": "https://studentski-poslovi.hr/posao/47752",
@@ -21,30 +37,6 @@
     "link": "https://studentski-poslovi.hr/posao/47598",
     "date": "25.11.2024.",
     "salary": "8  €",
-    "location": "Zagreb"
-  },
-  {
-    "title": "💻 Poslovi za studente/ice građevinarstva, strojarstva i elektrotehnike",
-    "company": "MODULOR CONSTRUCTIONS d.o.o.",
-    "link": "https://studentski-poslovi.hr/posao/47480",
-    "date": "22.11.2024.",
-    "salary": "5.25  €",
-    "location": "Zagreb"
-  },
-  {
-    "title": "💻 Asistent/ica u implementaciji i automatizaciji no-code softvera",
-    "company": "PROPRIUM d.o.o.",
-    "link": "https://studentski-poslovi.hr/posao/47432",
-    "date": "21.11.2024.",
-    "salary": "6  €",
-    "location": "Rad od kuće"
-  },
-  {
-    "title": "💻 Web analitika / Google Analytics / GTM",
-    "company": "Virtualna tvornica j.d.o.o.",
-    "link": "https://studentski-poslovi.hr/posao/47311",
-    "date": "20.11.2024.",
-    "salary": "8.5  €",
     "location": "Zagreb"
   }
 ]
