@@ -27,6 +27,12 @@ A fully automated system to scrape IT student job listings from studentski-poslo
 
 ## Installation
 
+NPM:
+```
+npm i marink-studentjobs
+```
+OR
+
 1. Clone the repository:
     ```
     git clone https://github.com/yourusername/studentjobs.git
@@ -46,6 +52,7 @@ A fully automated system to scrape IT student job listings from studentski-poslo
     ```
     []
     ```
+5. Change the github workflow to your repository.
 
 ## Automation with GitHub Actions
 
