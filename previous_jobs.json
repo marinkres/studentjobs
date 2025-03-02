@@ -1,50 +1,122 @@
 [
   {
-    "title": "💻 Tehničar /mlađi inženjer prodaje (strojarstva) m/ž",
-    "company": "DABAL OPREMA d.o.o.",
-    "link": "https://studentski-poslovi.hr/posao/47752",
-    "date": "26.11.2024.",
-    "salary": "6.3  €",
+    "title": "💻 Operater na računalu (Support)/ Administrativni poslovi – Menadžer",
+    "company": "Alea Felix Gambit d.o.o.",
+    "link": "https://studentski-poslovi.hr/posao/48021",
+    "date": "03.12.2024.",
+    "salary": "6.5                     - 10\n                 €",
     "location": "Zagreb"
   },
   {
-    "title": "💻 Student u ICT Governance, Architecture & Methodology (m/ž)",
-    "company": "Intesa Sanpaolo international value services d.o.o.",
-    "link": "https://studentski-poslovi.hr/posao/47655",
-    "date": "25.11.2024.",
+    "title": "💻 Asistent/ica",
+    "company": "Integral edukacijski programi d.o.o.",
+    "link": "https://studentski-poslovi.hr/posao/48519",
+    "date": "12.12.2024.",
+    "salary": "6.1  €",
+    "location": "Zagreb"
+  },
+  {
+    "title": "💻 Student/ica u IT odjelu",
+    "company": "Vertiv Croatia d.o.o.",
+    "link": "https://studentski-poslovi.hr/posao/48489",
+    "date": "11.12.2024.",
+    "salary": "6.06  €",
+    "location": "Zagreb"
+  },
+  {
+    "title": "💻 IT Associate (m/ž)",
+    "company": "BE-terna d.o.o.",
+    "link": "https://studentski-poslovi.hr/posao/48380",
+    "date": "10.12.2024.",
+    "salary": "6.5  €",
+    "location": "Zagreb"
+  },
+  {
+    "title": "💻 Student/ica strojarstva u proizvodnji",
+    "company": "Smart sense d.o.o.",
+    "link": "https://studentski-poslovi.hr/posao/48322",
+    "date": "09.12.2024.",
     "salary": "5.5  €",
     "location": "Zagreb"
   },
   {
-    "title": "💻 Asistent/ica u dizajnu i održavanju web stranice, digitalni marketing (promocija i prodaja) na webu i društvenim mrežama, u putničkoj agenciji (pustolovni turizam)",
-    "company": "VMD d.o.o.",
-    "link": "https://studentski-poslovi.hr/posao/47598",
-    "date": "25.11.2024.",
-    "salary": "8  €",
+    "title": "💻 Programer",
+    "company": "IN2 d.o.o.",
+    "link": "https://studentski-poslovi.hr/posao/48284",
+    "date": "06.12.2024.",
+    "salary": "6.06  €",
     "location": "Zagreb"
   },
   {
-    "title": "💻 Poslovi za studente/ice građevinarstva, strojarstva i elektrotehnike",
-    "company": "MODULOR CONSTRUCTIONS d.o.o.",
-    "link": "https://studentski-poslovi.hr/posao/47480",
-    "date": "22.11.2024.",
-    "salary": "5.25  €",
+    "title": "💻 NET programer (m/ž)",
+    "company": "IN2 d.o.o. informacijski inženjering",
+    "link": "https://studentski-poslovi.hr/posao/48264",
+    "date": "06.12.2024.",
+    "salary": "6.06  €",
     "location": "Zagreb"
   },
   {
-    "title": "💻 Asistent/ica u implementaciji i automatizaciji no-code softvera",
-    "company": "PROPRIUM d.o.o.",
-    "link": "https://studentski-poslovi.hr/posao/47432",
-    "date": "21.11.2024.",
-    "salary": "6  €",
-    "location": "Rad od kuće"
+    "title": "💻 Suradnik ili suradnica PREDNOST STUDENTI STROJARSTVA (konstruktorski smjer)",
+    "company": "Agroprojekt 1952 d.o.o.",
+    "link": "https://studentski-poslovi.hr/posao/48247",
+    "date": "06.12.2024.",
+    "salary": "5.5                     - 8\n                 €",
+    "location": "Zagreb"
   },
   {
-    "title": "💻 Web analitika / Google Analytics / GTM",
-    "company": "Virtualna tvornica j.d.o.o.",
-    "link": "https://studentski-poslovi.hr/posao/47311",
-    "date": "20.11.2024.",
-    "salary": "8.5  €",
+    "title": "💻 Software Engineering Internship",
+    "company": "Infobip d.o.o",
+    "link": "https://studentski-poslovi.hr/posao/48211",
+    "date": "05.12.2024.",
+    "salary": "7  €",
+    "location": "Zagreb"
+  },
+  {
+    "title": "💻 Telecom Business Solutions Intern (m/ž)",
+    "company": "Infobip d.o.o.",
+    "link": "https://studentski-poslovi.hr/posao/48210",
+    "date": "05.12.2024.",
+    "salary": "6.1  €",
+    "location": "Zagreb"
+  },
+  {
+    "title": "💻 System Engineer Intern",
+    "company": "Infobip d.o.o",
+    "link": "https://studentski-poslovi.hr/posao/48209",
+    "date": "05.12.2024.",
+    "salary": "7  €",
+    "location": "Zagreb"
+  },
+  {
+    "title": "💻 Solution Engineering Intern (m/ž)",
+    "company": "Infobip d.o.o.",
+    "link": "https://studentski-poslovi.hr/posao/48208",
+    "date": "05.12.2024.",
+    "salary": "7  €",
+    "location": "Zagreb"
+  },
+  {
+    "title": "💻 Product Marketing Intern (m/ž)",
+    "company": "Infobip d.o.o.",
+    "link": "https://studentski-poslovi.hr/posao/48207",
+    "date": "05.12.2024.",
+    "salary": "6.1  €",
+    "location": "Zagreb"
+  },
+  {
+    "title": "💻 Market Intelligence Intern",
+    "company": "Infobip d.o.o",
+    "link": "https://studentski-poslovi.hr/posao/48206",
+    "date": "05.12.2024.",
+    "salary": "6.1  €",
+    "location": "Zagreb"
+  },
+  {
+    "title": "💻 Market Growth Intern (m/ž)",
+    "company": "Infobip d.o.o.",
+    "link": "https://studentski-poslovi.hr/posao/48205",
+    "date": "05.12.2024.",
+    "salary": "6.1  €",
     "location": "Zagreb"
   }
 ]
